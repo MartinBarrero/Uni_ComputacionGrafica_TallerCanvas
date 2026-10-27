@@ -1,0 +1,43 @@
+body {
+    background-color: rgb(222, 223, 243);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo {
+    display: flex;
+    background-color: rgb(20, 13, 82);
+    color: aliceblue;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 50%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.canva {
+    display: flex;
+    border-radius: 10px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    width: 95%;
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+canvas {
+    display: flex;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.ayuda {
+    display: flex;
+    color: rgb(20, 13, 82);
+    justify-content: center;
+    margin-top: 10px;
+}
